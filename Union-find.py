@@ -5,7 +5,7 @@ def make_set(v):
 def find_set(v):
     if v == parent[v]:
         return v
-    parent[v] = find_set(parent[v]) //Compresion path compresion
+    parent[v] = find_set(parent[v]) #Compresion path compresion
     return parent[v]
 
 def swap(a, b):
